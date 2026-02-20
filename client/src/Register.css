@@ -1,0 +1,58 @@
+/* Reusing your centering logic */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh; /* Changed to min-height for longer forms */
+  background-color: #eef5f4;
+  padding: 40px 0;
+}
+
+.login-card {
+  background: #ffffff;
+  width: 90%;
+  max-width: 450px; /* Slightly wider for register fields */
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Same input styling as your login page */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  color: #000000 !important; /* Ensuring black text */
+}
+
+input.error {
+  border-color: #e74c3c;
+}
+
+.error-msg {
+  color: #e74c3c;
+  font-size: 0.75rem;
+  display: block;
+  margin-top: 4px;
+}
+
+.alert.success {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #c3e6cb;
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

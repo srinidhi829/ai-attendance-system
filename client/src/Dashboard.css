@@ -1,0 +1,140 @@
+:root {
+  --primary-green: #3a8d79;
+  --bg-light: #eef5f4;
+  --white: #ffffff;
+  --red-accent: #e74c3c;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--bg-light);
+  padding: 20px;
+}
+
+.dashboard-card {
+  background: var(--white);
+  width: 95%;
+  max-width: 500px;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.logo-circle {
+  width: 70px;
+  height: 70px;
+  background: #d1e7dd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  border: 4px solid #bce0d5;
+  font-size: 1.5rem;
+  color: var(--primary-green);
+  font-weight: bold;
+}
+
+.brand-name {
+  color: var(--primary-green);
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.sub-text {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #000;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: var(--primary-green);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.stats-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 20px;
+}
+
+.stat-card {
+  flex: 1;
+  margin: 0 5px;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.present-bg {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.absent-bg {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.list-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+}
+
+.list-section ul {
+  list-style: none;
+  padding: 0;
+  max-height: 120px;
+  overflow-y: auto;
+  font-size: 0.9rem;
+}
+
+.present-text { color: #2e7d32; }
+.absent-text { color: #c62828; }
+
+.image-section {
+  margin-top: 25px;
+}
+
+.image-section img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
