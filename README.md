@@ -1,5 +1,10 @@
 # AI Attendance System
 
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
 ## Overview
 
 The AI Attendance System is a full-stack application that automates attendance management using face recognition technology. Instead of manually recording attendance, the system identifies registered students from classroom images and generates attendance records automatically.
